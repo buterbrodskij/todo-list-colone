@@ -1,0 +1,12 @@
+.input-1 {
+    @apply px-2;
+    @apply py-1;
+    @apply rounded;
+    @apply ring-0;
+}
+
+
+.area-1 {
+    @apply input-1;
+    @apply resize-none;
+}

@@ -1,0 +1,19 @@
+.button-1 {
+    @apply px-4;
+    @apply py-2;
+    @apply bg-amber-400;
+    @apply rounded;
+    @apply text-black;
+    @apply font-medium;
+    @apply text-sm;
+    @apply transition;
+    @apply duration-500;
+    @apply hover:bg-amber-300
+}
+
+.button-red {
+    @apply button-1;
+    @apply bg-red-700;
+    @apply hover:bg-red-500;
+    @apply text-white;
+}
